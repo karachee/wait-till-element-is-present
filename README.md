@@ -15,7 +15,6 @@ import { waitTillElementIsPresent } from './waitTillElementIsPresent.js';
         var element = await waitTillElementIsPresent('prolonged-button', 'ID', 10000, null);
         if (element) {
             console.log("Found the element");
-            document.getElementById('results').textContent = 'Element Found';
         }else{
             console.log("Element not found");
         }
