@@ -24,8 +24,6 @@ import { waitTillElementIsPresent } from './waitTillElementIsPresent.js';
 }
 )(); 
 
-
-document.getElementById('results').textContent = 'Element Not Found';
 let existingProlongedButton = document.getElementById('prolonged-button');
 if(existingProlongedButton){
   existingProlongedButton.parentNode.removeChild(existingProlongedButton);
